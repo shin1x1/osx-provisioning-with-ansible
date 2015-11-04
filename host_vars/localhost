@@ -1,0 +1,68 @@
+---
+homebrew_packages:
+  - readline
+  - zsh
+  - autojump
+  - git
+  - ctags
+  - tmux
+  - tig
+  - ansible
+  - wget
+  - curl
+  - jq
+  - vim
+  - reattach-to-user-namespace
+  - postgresql
+  - mysql
+  - sqlite
+  - { name: php56, install_option: --with-pgsql,--with-pdo-pgsql,--with-pdo-mysql,--enable-opcache }
+  - php56-mcrypt
+  - php56-xdebug
+  - php56-redis
+  - composer
+  - { name: php56-memcached, install_option: --with-sasl }
+  - phpunit
+  - phpunit-skeleton-generator
+  - rbenv
+  - ruby-build
+  - python
+  - go
+  - hg
+  - awscli
+  - npm
+  - graphviz
+  - tree
+  - heroku-toolbelt
+
+homebrew_cask_packages:
+  - java
+  - dash
+  - phpstorm
+  - pycharm-ce
+  - iterm2
+  - google-chrome
+  - firefox
+  - virtualbox
+  - vagrant
+  - kobito
+  - dropbox
+  - evernote
+  - skitch
+  - slack
+  - github
+  - sequel-pro
+  - openoffice
+  - bettertouchtool
+  - the-unarchiver
+  - coteditor
+  - istat-menus
+  - bartender
+  - skype
+  - xmind
+  - hipchat
+  - atom
+  - livereload
+  - chefdk
+  - clipy
+  - lastpass
