@@ -1,0 +1,21 @@
+---
+- name: Register installed Ruby
+  shell: rbenv versions | grep {{ ruby_global_version }}
+  changed_when: False
+  failed_when: False
+  register: ruby_status
+
+- name: Install Ruby
+  shell: rbenv install {{ ruby_global_version }}
+  when: ruby_status|failed
+
+- name: Detect global Ruby version
+  shell: rbenv global {{ ruby_global_version }}
+  tags:
+    - ruby
+
+- name: Install gems
+  shell: rbenv exec gem install {{ item }}
+  with_items: ruby_install_gems
+  tags:
+    - ruby
