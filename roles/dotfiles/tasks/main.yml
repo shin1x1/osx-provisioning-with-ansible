@@ -1,0 +1,26 @@
+---
+- name: Create dotfiles symlinks
+  file: src=~/Dropbox/shin1x1/home/{{ item }} dest=~/{{ item }} state=link
+  with_items:
+    - .vim
+    - .vimrc
+    - .zprezto
+    - .zsh
+    - .tmux.conf
+    - .gitconfig
+    - .gitignore_global
+    - .snippets
+  tags:
+    - dotfiles
+
+- name: Create .zprezto symlinks
+  file: src=~/Dropbox/shin1x1/home/.zprezto/runcoms/{{ item }} dest=~/.{{ item }} state=link
+  with_items:
+    - zlogin
+    - zlogout
+    - zpreztorc
+    - zprofile
+    - zshenv
+    - zshrc
+  tags:
+    - dotfiles
