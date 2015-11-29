@@ -1,4 +1,7 @@
 ---
+homebrew_repositories:
+  - homebrew/php
+
 homebrew_packages:
   - readline
   - zsh
@@ -50,7 +53,7 @@ homebrew_cask_packages:
   - evernote
   - skitch
   - slack
-  - github
+  - github-desktop
   - sequel-pro
   - openoffice
   - bettertouchtool
@@ -65,4 +68,7 @@ homebrew_cask_packages:
   - livereload
   - chefdk
   - clipy
-  - lastpass
+  - marked
+  - flash
+  - kindle
+  - adobe-reader
