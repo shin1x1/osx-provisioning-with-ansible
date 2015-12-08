@@ -10,7 +10,7 @@ $ cd this_repo
 $ ansible-playbook -i hosts osx.yml
 ```
  
-## Usage with ssh role（for me）
+## Usage with dotfiles and ssh role（for me）
 
 ```
 $ git clone this_repo
@@ -20,7 +20,7 @@ $ vi osx.yml
     - homebrew
     - homebrew-cask
     - ruby
-    - dotfiles
+    - dotfiles # uncomment this line
     - ssh # uncomment this line
 
 $ ansible-playbook -i hosts osx.yml --ask-vault-pass

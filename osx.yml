@@ -8,5 +8,5 @@
     - homebrew
     - homebrew-cask
     - ruby
-    - dotfiles
+    #- dotfiles
     #- ssh
