@@ -19,15 +19,15 @@ homebrew_packages:
   - postgresql
   - mysql
   - sqlite
-  - { name: php70, install_option: with-phpdbg }
-  - php70-mcrypt
-  - php70-xdebug
-  - php70-opcache
-  - php70-pdo-pgsql
-  - php70-apcu
-  - { name: php70-redis, state: head }
+  - { name: php56, install_option: with-phpdbg }
+  - php56-mcrypt
+  - php56-xdebug
+  - php56-opcache
+  - php56-pdo-pgsql
+  - php56-apcu
+  - { name: php56-redis, state: head }
   - composer
-  - { name: php70-memcached, state: head, install_option: with-sasl }
+  - { name: php56-memcached, state: head, install_option: with-sasl }
   - phpunit
   - phpunit-skeleton-generator
   - rbenv
