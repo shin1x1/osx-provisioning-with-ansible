@@ -40,6 +40,8 @@ homebrew_packages:
   - graphviz
   - tree
   - heroku-toolbelt
+  - ghq
+  - peco
 
 homebrew_cask_packages:
   - java
