@@ -7,6 +7,5 @@
   roles:
     - homebrew
     - homebrew-cask
-    - ruby
     #- dotfiles
     #- ssh

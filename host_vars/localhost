@@ -19,45 +19,37 @@ homebrew_packages:
   - postgresql
   - mysql
   - sqlite
-  - { name: php70, install_option: with-phpdbg }
-  - php70-mcrypt
-  - php70-xdebug
-  - php70-opcache
-  - php70-pdo-pgsql
-  - php70-apcu
-  - { name: php70-redis, state: head }
+  - { name: php71, install_option: with-phpdbg }
+  - php71-xdebug
+  - php71-opcache
+  - php71-pdo-pgsql
+  - php71-apcu
+  - { name: php71-redis, state: head }
   - composer
-  - { name: php70-memcached, state: head, install_option: with-sasl }
+  - { name: php71-memcached, state: head, install_option: with-sasl }
   - phpunit
   - phpunit-skeleton-generator
-  - rbenv
-  - ruby-build
   - python
   - go
   - hg
   - awscli
   - npm
-  - graphviz
   - tree
-  - heroku-toolbelt
+  - heroku/brew/heroku
+  - ghq
 
 homebrew_cask_packages:
   - java
-  - dash
   - phpstorm
-  - pycharm-ce
   - iterm2
   - google-chrome
   - firefox
   - virtualbox
   - vagrant
-  - kobito
   - dropbox
   - evernote
   - skitch
   - slack
-  - github-desktop
-  - sequel-pro
   - openoffice
   - bettertouchtool
   - the-unarchiver
@@ -66,13 +58,16 @@ homebrew_cask_packages:
   - bartender
   - skype
   - xmind
-  - hipchat
   - atom
   - livereload
-  - chefdk
   - clipy
   - marked
   - flash
   - kindle
   - adobe-reader
   - licecap
+  - pomodone
+  - 1password
+  - docker-toolbox
+  - google-japanese-ime
+
