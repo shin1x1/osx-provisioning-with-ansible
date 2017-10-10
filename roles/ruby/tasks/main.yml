@@ -16,6 +16,7 @@
 
 - name: Install gems
   shell: rbenv exec gem install {{ item }}
-  with_items: ruby_install_gems
+  with_items:
+    - "{{ ruby_install_gems }}"
   tags:
     - ruby

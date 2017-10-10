@@ -16,20 +16,8 @@ homebrew_packages:
   - jq
   - vim
   - reattach-to-user-namespace
-  - postgresql
-  - mysql
   - sqlite
-  - { name: php71, install_option: with-phpdbg }
-  - php71-xdebug
-  - php71-opcache
-  - php71-pdo-pgsql
-  - php71-apcu
-  - { name: php71-redis, state: head }
   - composer
-  - { name: php71-memcached, state: head, install_option: with-sasl }
-  - phpunit
-  - phpunit-skeleton-generator
-  - python
   - go
   - hg
   - awscli
@@ -37,6 +25,9 @@ homebrew_packages:
   - tree
   - heroku/brew/heroku
   - ghq
+  - lame
+  - peco
+  - telnet
 
 homebrew_cask_packages:
   - java
@@ -51,7 +42,6 @@ homebrew_cask_packages:
   - skitch
   - slack
   - openoffice
-  - bettertouchtool
   - the-unarchiver
   - coteditor
   - istat-menus
@@ -61,13 +51,11 @@ homebrew_cask_packages:
   - atom
   - livereload
   - clipy
-  - marked
-  - flash
   - kindle
-  - adobe-reader
+  - adobe-acrobat-reader
   - licecap
   - pomodone
   - 1password
-  - docker-toolbox
+  - docker
   - google-japanese-ime
 
