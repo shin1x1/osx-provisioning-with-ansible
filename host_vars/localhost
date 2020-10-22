@@ -1,7 +1,4 @@
 ---
-homebrew_repositories:
-  - homebrew/php
-
 homebrew_packages:
   - readline
   - zsh
@@ -15,7 +12,6 @@ homebrew_packages:
   - curl
   - jq
   - vim
-  - reattach-to-user-namespace
   - sqlite
   - composer
   - go
@@ -27,7 +23,6 @@ homebrew_packages:
   - ghq
   - lame
   - peco
-  - telnet
 
 homebrew_cask_packages:
   - java
