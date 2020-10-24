@@ -2,10 +2,7 @@
 - hosts: localhost
   gather_facts: no
   become: no
-  environment:
-    HOMEBREW_CASK_OPTS: "--appdir=/Applications"
   roles:
     - homebrew
-    - homebrew-cask
     #- dotfiles
     #- ssh
