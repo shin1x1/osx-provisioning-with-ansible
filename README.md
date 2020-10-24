@@ -45,7 +45,10 @@ Vault password: # <--- Enter vault password
 * [LICEcap](https://www.cockos.com/licecap/)
 * [Adobe Acrobat Reader DC](https://acrobat.adobe.com/jp/ja/acrobat/pdf-reader.html)
 * [Visual Studio Code](https://code.visualstudio.com/)
+* [Office 365](https://www.office.com/)
 * [Rust](https://www.rust-lang.org/)
+* [Auphonic Leveler Batch Processor](https://auphonic.com/leveler)
+* [DeepL翻訳](https://www.deepl.com/translator)
 
 ### App Store
 
