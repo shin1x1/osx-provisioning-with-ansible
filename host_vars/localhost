@@ -25,3 +25,4 @@ homebrew_packages:
   - peco
   - graphviz
   - php
+  - openssl

@@ -2,13 +2,16 @@
 - name: Tap external Homebrew repositories
   homebrew_tap:
     name: "{{ homebrew_repositories }}"
-    state: latest
+    state: present
+  when:
+    - "homebrew_repositories|bool"
 
 - name: Update Homebrew
   homebrew: update_homebrew=yes
 
 - name: Install/Upgrade Homebrew packages
   homebrew:
-    name: "{{ homebrew_packages }}"
+    name: "{{ item }}"
     state: latest
+  loop: "{{ homebrew_packages }}"
 
