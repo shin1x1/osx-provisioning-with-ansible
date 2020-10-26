@@ -19,10 +19,8 @@ $ vi osx.yml
   roles:
     - homebrew
     - dotfiles # uncomment this line
-    - ssh # uncomment this line
 
-$ ansible-playbook -i hosts osx.yml --ask-vault-pass
-Vault password: # <--- Enter vault password
+$ ansible-playbook -i hosts osx.yml
 ```
 
 ## Apps
@@ -49,6 +47,7 @@ Vault password: # <--- Enter vault password
 * [Rust](https://www.rust-lang.org/)
 * [Auphonic Leveler Batch Processor](https://auphonic.com/leveler)
 * [DeepL翻訳](https://www.deepl.com/translator)
+* [Tunnelblick](https://tunnelblick.net/)
 
 ### App Store
 
