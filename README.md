@@ -48,6 +48,8 @@ $ ansible-playbook -i hosts osx.yml
 * [Auphonic Leveler Batch Processor](https://auphonic.com/leveler)
 * [DeepL翻訳](https://www.deepl.com/translator)
 * [Tunnelblick](https://tunnelblick.net/)
+* [Vagrant](https://www.vagrantup.com/)
+* [VirtualBox](https://www.virtualbox.org/)
 
 ### App Store
 

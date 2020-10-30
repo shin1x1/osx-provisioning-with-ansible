@@ -26,3 +26,6 @@ homebrew_packages:
   - graphviz
   - php
   - openssl
+  - terraform
+  - sbt
+  - watch
