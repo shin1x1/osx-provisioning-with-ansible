@@ -25,13 +25,11 @@ $ ansible-playbook -i hosts osx.yml
 
 ## Apps
 
-* [AdoptOpenJDK](https://adoptopenjdk.net/)
+* [Amazon Corretto](https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/downloads-list.html)
 * [JetBrains Toolbox App](https://www.jetbrains.com/toolbox-app/)
 * [iTerm2](https://iterm2.com/)
 * [Google Chrome](https://www.google.co.jp/chrome/)
 * [Firefox](https://www.mozilla.org/ja/firefox/new/)
-* [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-* [Vagrant](https://www.vagrantup.com/)
 * [Docker Desktop for Mac](https://www.docker.com/products/docker-desktop)
 * [Dropbox](https://www.dropbox.com/basic)
 * [Google 日本語入力](https://www.google.co.jp/ime/)
@@ -44,12 +42,9 @@ $ ansible-playbook -i hosts osx.yml
 * [Adobe Acrobat Reader DC](https://acrobat.adobe.com/jp/ja/acrobat/pdf-reader.html)
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Office 365](https://www.office.com/)
-* [Rust](https://www.rust-lang.org/)
 * [Auphonic Leveler Batch Processor](https://auphonic.com/leveler)
 * [DeepL翻訳](https://www.deepl.com/translator)
 * [Tunnelblick](https://tunnelblick.net/)
-* [Vagrant](https://www.vagrantup.com/)
-* [VirtualBox](https://www.virtualbox.org/)
 
 ### App Store
 

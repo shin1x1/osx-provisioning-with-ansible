@@ -15,7 +15,6 @@ homebrew_packages:
   - sqlite
   - composer
   - go
-  - hg
   - awscli
   - npm
   - tree
@@ -29,3 +28,5 @@ homebrew_packages:
   - terraform
   - sbt
   - watch
+  - cargo
+  - coursier/formulas/coursier
