@@ -16,17 +16,13 @@ homebrew_packages:
   - composer
   - go
   - awscli
+  - aws-vault
   - npm
   - tree
-  - heroku/brew/heroku
   - ghq
   - lame
   - peco
   - graphviz
   - php
   - openssl
-  - terraform
-  - sbt
   - watch
-  - cargo
-  - coursier/formulas/coursier

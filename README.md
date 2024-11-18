@@ -25,17 +25,14 @@ $ ansible-playbook -i hosts osx.yml
 
 ## Apps
 
-* [Amazon Corretto](https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/downloads-list.html)
+* [Amazon Corretto](https://docs.aws.amazon.com/corretto/)
 * [JetBrains Toolbox App](https://www.jetbrains.com/toolbox-app/)
 * [iTerm2](https://iterm2.com/)
 * [Google Chrome](https://www.google.co.jp/chrome/)
 * [Firefox](https://www.mozilla.org/ja/firefox/new/)
 * [Docker Desktop for Mac](https://www.docker.com/products/docker-desktop)
 * [Dropbox](https://www.dropbox.com/basic)
-* [Google 日本語入力](https://www.google.co.jp/ime/)
 * [Typora](https://typora.io/)
-* [Franz](https://meetfranz.com/)
-* [Bartender](https://www.macbartender.com/)
 * [XMind](https://jp.xmind.net/)
 * [Zoom](https://zoom.us/)
 * [LICEcap](https://www.cockos.com/licecap/)
@@ -45,19 +42,15 @@ $ ansible-playbook -i hosts osx.yml
 * [Auphonic Leveler Batch Processor](https://auphonic.com/leveler)
 * [DeepL翻訳](https://www.deepl.com/translator)
 * [Tunnelblick](https://tunnelblick.net/)
+* [1Password](https://1password.com/jp/downloads/mac)
+* [PeaZip](https://peazip.github.io/peazip-macos.html)
 
 ### App Store
 
 * CotEditor
 * iStat Menus
-* Pomo Done
 * BetterSnapTool
-* LiveReload
 * Kindle
-* WinArchiver
-* Bear
-* 1Password
-* Evernote
 * Logic Pro X
 
 ## Licence
